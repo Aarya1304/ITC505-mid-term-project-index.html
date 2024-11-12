@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aladdin and the Cave of Wonders</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Aladdin and the Cave of Wonders</h1>
+    </header>
+    <main>
+        <div id="story">Welcome to your adventure!</div>
+        <div id="choices"></div>
+        <img id="storyImage" src="" alt="Story Image" style="display: none;">
+    </main>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+    
+</body>
+</html>
